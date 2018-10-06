@@ -12,7 +12,7 @@ public class MiniRequest {
     private String url;
     private String method;
 
-    public MiniRequest(InputStream inputStream) throws IOException{
+    public MiniRequest(InputStream inputStream) throws IOException {
         String httpRequest = "";
         byte[] httpRequestBytes = new byte[1024];
         int length = 0;
