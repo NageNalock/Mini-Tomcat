@@ -70,8 +70,7 @@ public class MiniTomcat {
 
     private void dispatch(MiniRequest request, MiniResponse response) {
         String clazz = urlServletMap.get(request.getUrl());
-        // System.out.println("clazz:" + clazz + ";request url:" + request.getUrl());
-        
+
         // 反射生成 Servlet 类
         try {
             if (clazz != null) {
