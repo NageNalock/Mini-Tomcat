@@ -1,3 +1,5 @@
+package servlet;
+
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -10,6 +12,23 @@ import java.io.InputStream;
 public class MiniRequest {
 
     private String url;
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public String getMethod() {
+        return method;
+    }
+
+    public void setMethod(String method) {
+        this.method = method;
+    }
+
     private String method;
 
     public MiniRequest(InputStream inputStream) throws IOException {

@@ -1,3 +1,5 @@
+package servlet;
+
 import org.omg.CORBA.portable.OutputStream;
 
 import java.io.IOException;
@@ -11,6 +13,14 @@ import java.io.IOException;
 public class MiniResponse {
 
     private OutputStream outputStream;
+
+    public OutputStream getOutputStream() {
+        return outputStream;
+    }
+
+    public void setOutputStream(OutputStream outputStream) {
+        this.outputStream = outputStream;
+    }
 
     public MiniResponse(OutputStream outputStream) {
         this.outputStream = outputStream;
