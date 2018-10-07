@@ -24,6 +24,11 @@ public class MiniTomcat {
         this.port = port;
     }
 
+    public MiniTomcat() {
+        // 缺省端口为 8080
+    }
+
+
     public void start() {
         // 初始化 url 与对应 servlet 之间的关系
         initServletMapping();
