@@ -16,4 +16,13 @@ public class FindGirlServlet extends MiniServlet {
             e.printStackTrace();
         }
     }
+
+    @Override
+    public void doPost(MiniRequest request, MiniResponse response) {
+        try {
+            response.write("post girl...");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
