@@ -1,8 +1,7 @@
 package servlet;
 
-import org.omg.CORBA.portable.OutputStream;
-
 import java.io.IOException;
+import java.io.OutputStream;
 
 /**
  * 封装 Response

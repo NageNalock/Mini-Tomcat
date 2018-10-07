@@ -6,7 +6,7 @@ import servlet.MiniServlet;
 
 import java.io.IOException;
 
-public class FindBotServlet extends MiniServlet {
+public class FindBoyServlet extends MiniServlet {
 
     @Override
     public void doGet(MiniRequest request, MiniResponse response) {
